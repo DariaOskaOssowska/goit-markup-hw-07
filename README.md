@@ -10,3 +10,5 @@ https://dariaoskaossowska.github.io/goit-markup-hw-04/
 https://dariaoskaossowska.github.io/goit-markup-hw-05/
 # goit-markup-hw-06
 https://dariaoskaossowska.github.io/goit-markup-hw-06/
+# goit-markup-hw-07
+https://dariaoskaossowska.github.io/goit-markup-hw-07/
