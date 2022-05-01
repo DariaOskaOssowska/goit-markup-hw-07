@@ -1,0 +1,98 @@
+.header {
+  background-color: var(--light-bgc);
+  border-bottom: 1px solid #ececec;
+}
+
+.navigation-list-link,
+.header-address-mail,
+.header-address-phone {
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+}
+
+.header .container {
+  display: flex;
+  padding-top: 24px;
+  padding-bottom: 25px;
+  align-items: center;
+}
+
+.navigation {
+  display: flex;
+}
+
+.navigation-logo {
+  margin-right: 93px;
+}
+
+.navigation-list-item {
+  position: relative;
+}
+
+.navigation-list-item:not(:last-child) {
+  margin-right: 46px;
+}
+
+.navigation-list-link:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 46px;
+  width: 100%;
+  height: 4px;
+  background: transparent;
+  border-radius: 2px;
+}
+
+.navigation-list-link.active:after {
+  background-color: var(--main-color);
+}
+
+.navigation-list {
+  display: flex;
+  align-items: center;
+}
+
+.header-address-list {
+  display: flex;
+  margin-left: auto;
+}
+
+.header-address-phone {
+  margin-left: 50px;
+}
+
+.header-address-icon {
+  margin-right: 10px;
+  vertical-align: middle;
+  fill: currentColor;
+}
+
+.navigation-list-link {
+  color: var(--main-colorFont);
+  transition: color 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.navigation-list-link-agency {
+  color: var(--main-color);
+}
+
+.header-address-mail,
+.header-address-phone {
+  color: var(--second-colorFont);
+  transition: color 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.navigation-list-link:hover,
+.navigation-list-link:focus,
+.header-address-mail:hover,
+.header-address-mail:focus,
+.header-address-phone:hover,
+.header-address-phone:focus {
+  color: var(--main-color);
+}
+
+

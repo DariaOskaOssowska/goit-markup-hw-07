@@ -1,0 +1,16 @@
+.about .container {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-img-list {
+  display: flex;
+}
+
+.about-img-list-item {
+  position: relative;
+}
+
+.about-img-list-item:not(:last-child) {
+  margin-right: 30px;
+}
