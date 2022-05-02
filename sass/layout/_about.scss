@@ -9,8 +9,7 @@
 
 .about-img-list-item {
   position: relative;
-}
-
-.about-img-list-item:not(:last-child) {
-  margin-right: 30px;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }

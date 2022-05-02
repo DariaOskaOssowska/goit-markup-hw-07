@@ -14,7 +14,7 @@
 }
 
 .navigation-list-link-portfolio {
-  color: var(--main-color);
+  color: $main-color;
 }
 /* =======  END PORTFOLIO ======= */
 
@@ -28,20 +28,18 @@
 .portfolio-list-item {
   position: relative;
   margin-bottom: 30px;
-  background: var(--light-bgc);
+  background: $light-bgc;
   overflow: hidden;
   cursor: pointer;
   transition: box-shadow 0.5s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.portfolio-list-item:hover,
-.portfolio-list-item:focus {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
-}
-
-.portfolio-list-item:nth-child(n + 7) {
-  margin-bottom: 0;
+  &:hover,
+  &:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+      1px 4px 6px rgba(0, 0, 0, 0.16);
+  }
+  &:nth-child(n + 7) {
+    margin-bottom: 0;
+  }
 }
 
 .overlay {
@@ -65,16 +63,16 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 1.556;
-  color: var(--third-colorFont);
+  color: $third-colorFont;
   letter-spacing: 0.03em;
 }
 
 .portfolio-list-wraper {
   position: relative;
-  background: var(--light-bgc);
-  border-right: 1px solid var(--light2-bgc);
-  border-bottom: 1px solid var(--light2-bgc);
-  border-left: 1px solid var(--light2-bgc);
+  background: $light-bgc;
+  border-right: 1px solid $light2-bgc;
+  border-bottom: 1px solid $light2-bgc;
+  border-left: 1px solid $light2-bgc;
 }
 
 .portfolio-third-header-name {
@@ -91,6 +89,6 @@
   font-size: 16px;
   line-height: 1.875;
   letter-spacing: 0.03em;
-  color: var(--second-colorFont);
+  color: $second-colorFont;
 }
 /* ====  END PORTFOLIO VIEW  ==== */

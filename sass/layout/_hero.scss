@@ -7,13 +7,13 @@
 }
 
 .hero-up-side {
-  background-color: var(--dark-bgc);
+  background-color: $dark-bgc;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url(../images/background/bg_hero.jpg);
   /* background-size: cover; */
   background-repeat: no-repeat;
   background-position: center;
-  color: var(--third-colorFont);
+  color: $third-colorFont;
 }
 /* ====== END HERO up side ====== */
 
@@ -39,7 +39,7 @@
   height: 120px;
   margin-bottom: 30px;
   border-radius: 4px;
-  background-color: var(--grey-bgc);
+  background-color: $grey-bgc;
 }
 
 .hero-description {
@@ -47,6 +47,6 @@
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
-  color: var(--second-colorFont);
+  color: $second-colorFont;
 }
 /* ====   END HERO down side ==== */

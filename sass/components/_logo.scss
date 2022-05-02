@@ -1,20 +1,18 @@
-.navigation-logo {
-  font-family: var(--second-font);
+.logo {
+  margin-right: 93px;
+  font-family: $second-font;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.192;
   letter-spacing: 0.03em;
-  color: var(--main-colorFont);
-}
-
-.navigation-logo .text-even-theme {
-  color: var(--main-color);
-}
-
-.navigation-logo .text-light-theme {
-  color: var(--main-colorFont);
-}
-
-.navigation-logo .text-dark-theme {
-  color: var(--third-colorFont);
+  color: $main-colorFont;
+  .logo--accent {
+    color: $main-color;
+  }
+  .logo--light-theme {
+    color: $main-colorFont;
+  }
+  .logo--dark-theme {
+    color: $third-colorFont;
+  }
 }
