@@ -13,11 +13,13 @@
   cursor: pointer;
 }
 
+// Hero button
 .hero__btn {
   padding: 10px 41px;
 }
 
-.filters__btn {
+// Portfolio - filter buttons
+.filter-list__btn {
   padding: 6px 22px;
   font-family: $main-font;
   font-weight: 500;
@@ -42,6 +44,7 @@
   }
 }
 
+// Newsletter button
 .newsletter__btn {
   display: flex;
   padding: 10px 24px 10px 42px;
