@@ -17,31 +17,6 @@
   padding: 10px 41px;
 }
 
-.modal-btn-close {
-  position: absolute;
-  top: 8px;
-  right: 8px;
-  width: 30px;
-  height: 30px;
-  background: $light-bgc;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  border-radius: 50%;
-  cursor: pointer;
-}
-
-.close-btn {
-  position: absolute;
-  top: 8px;
-  right: 8px;
-}
-
-.modal-form-btn {
-  display: block;
-  margin: 0 auto;
-  padding: 10px 76px;
-  border: 1px solid $main-color;
-}
-
 .filters__btn {
   padding: 6px 22px;
   font-family: $main-font;
