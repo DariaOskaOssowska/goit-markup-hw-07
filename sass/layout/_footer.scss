@@ -18,7 +18,7 @@
   margin-top: 20px;
 }
 
-.footer-list-item:nth-child(2) {
+.footer-list__item:nth-child(2) {
   margin: 9px 0;
 }
 
@@ -46,15 +46,15 @@
   color: $third-colorFont;
 }
 
-.footer .social-list-link {
+.footer .social-list__link {
   fill: $light-bgc;
   background: rgba(255, 255, 255, 0.1);
   transition: background-color 0.5s cubic-bezier(0.4, 0, 0.2, 1),
     fill 0.5s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer .social-list-link:hover,
-.footer .social-list-link:focus {
+.footer .social-list__link:hover,
+.footer .social-list__link:focus {
   background-color: $main-color;
   fill: $light-bgc;
 }

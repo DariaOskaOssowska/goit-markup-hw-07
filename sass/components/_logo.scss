@@ -7,15 +7,15 @@
   letter-spacing: 0.03em;
   color: $main-colorFont;
 
-  .logo--accent {
+  &--accent {
     color: $main-color;
   }
 
-  .logo--light-theme {
+  &--light-theme {
     color: $main-colorFont;
   }
   
-  .logo--dark-theme {
+  &--dark-theme {
     color: $third-colorFont;
   }
 }
