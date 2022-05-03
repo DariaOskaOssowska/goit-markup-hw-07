@@ -1,11 +1,4 @@
 /* =======   HERO up side ======= */
-.hero-up-side .container {
-  display: flex;
-  flex-direction: column;
-  padding-top: 200px;
-  padding-bottom: 200px;
-}
-
 .hero-up-side {
   background-color: $dark-bgc;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
@@ -18,10 +11,6 @@
 /* ====== END HERO up side ====== */
 
 /* ======   HERO down side ====== */
-.hero-up-side .container {
-  display: flex;
-}
-
 .hero-list {
   display: flex;
   justify-content: space-between;

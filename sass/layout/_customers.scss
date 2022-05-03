@@ -1,8 +1,3 @@
-.customers .container {
-  display: flex;
-  flex-direction: column;
-}
-
 .customers-list {
   display: flex;
   justify-content: center;
@@ -12,6 +7,7 @@
 .customers-list-item {
   display: flex;
   justify-content: center;
+
   &:not(:last-child) {
     margin-right: 30px;
   }
@@ -27,6 +23,7 @@
   border: 1px solid $icon-color;
   border-radius: 4px;
   transition: border-color 0.5s cubic-bezier(0.4, 0, 0.2, 1), fill 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  
   &:hover,
   &:focus {
     border-color: $main-color;

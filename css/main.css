@@ -53,6 +53,36 @@ img {
   align-items: center;
 }
 
+.header .container {
+  display: flex;
+  padding-top: 24px;
+  padding-bottom: 25px;
+  align-items: center;
+}
+
+.hero-up-side .container {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.hero-up-side .container,
+.about .container,
+.team .container,
+.customers .container {
+  display: flex;
+  flex-direction: column;
+}
+
+.portfolio-view .container {
+  display: flex;
+  justify-content: center;
+}
+
+.footer .container {
+  display: flex;
+  align-items: baseline;
+}
+
 .section {
   padding-top: 94px;
 }
@@ -418,16 +448,13 @@ img {
   border-bottom: 1px solid #ececec;
 }
 
-.header .container {
+.header-address-list {
   display: flex;
-  padding-top: 24px;
-  padding-bottom: 25px;
-  align-items: center;
+  margin-left: auto;
 }
 
 .navigation-list__link,
-.header-address-mail,
-.header-address-phone {
+.header-address__link {
   font-weight: 500;
   font-style: normal;
   font-size: 14px;
@@ -439,6 +466,11 @@ img {
   display: flex;
 }
 
+.navigation-list {
+  display: flex;
+  align-items: center;
+}
+
 .navigation-list__item {
   position: relative;
 }
@@ -447,7 +479,11 @@ img {
   margin-right: 46px;
 }
 
-.navigation-list__link:after {
+.navigation-list__link.active {
+  color: #2196f3;
+}
+
+.navigation-list__link.active::after {
   content: '';
   display: block;
   position: absolute;
@@ -456,30 +492,7 @@ img {
   height: 4px;
   background: transparent;
   border-radius: 2px;
-}
-
-.navigation-list__link.active:after {
   background-color: #2196f3;
-}
-
-.navigation-list {
-  display: flex;
-  align-items: center;
-}
-
-.header-address-list {
-  display: flex;
-  margin-left: auto;
-}
-
-.header-address-phone {
-  margin-left: 50px;
-}
-
-.header-address-icon {
-  margin-right: 10px;
-  vertical-align: middle;
-  fill: currentColor;
 }
 
 .navigation-list__link {
@@ -487,33 +500,32 @@ img {
   transition: color 0.5s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.navigation-list__link-agency {
+.navigation-list__link:hover, .navigation-list__link:focus {
   color: #2196f3;
 }
 
-.header-address-mail,
-.header-address-phone {
+.header-address__link {
   color: #757575;
+  fill: #757575;
   transition: color 0.5s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.navigation-list__link:hover,
-.navigation-list__link:focus,
-.header-address-mail:hover,
-.header-address-mail:focus,
-.header-address-phone:hover,
-.header-address-phone:focus {
+.header-address__link:hover, .header-address__link:focus {
   color: #2196f3;
+  fill: #2196f3;
+}
+
+.header-address__link-phone {
+  margin-left: 50px;
+}
+
+.header-address__icon {
+  margin-right: 10px;
+  vertical-align: middle;
+  fill: currentColor;
 }
 
 /* =======   HERO up side ======= */
-.hero-up-side .container {
-  display: flex;
-  flex-direction: column;
-  padding-top: 200px;
-  padding-bottom: 200px;
-}
-
 .hero-up-side {
   background-color: #2f303a;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/background/bg_hero.jpg);
@@ -525,10 +537,6 @@ img {
 
 /* ====== END HERO up side ====== */
 /* ======   HERO down side ====== */
-.hero-up-side .container {
-  display: flex;
-}
-
 .hero-list {
   display: flex;
   justify-content: space-between;
@@ -558,11 +566,6 @@ img {
 }
 
 /* ====   END HERO down side ==== */
-.about .container {
-  display: flex;
-  flex-direction: column;
-}
-
 .about-img-list {
   display: flex;
 }
@@ -573,11 +576,6 @@ img {
 
 .about-img-list-item:not(:last-child) {
   margin-right: 30px;
-}
-
-.team .container {
-  display: flex;
-  flex-direction: column;
 }
 
 .team-list {
@@ -603,11 +601,6 @@ img {
 .team-list-job {
   margin-bottom: 16px;
   color: #757575;
-}
-
-.customers .container {
-  display: flex;
-  flex-direction: column;
 }
 
 .customers-list {
@@ -648,11 +641,6 @@ img {
   line-height: 1.714;
   letter-spacing: 0.03em;
   background-color: #2f303a;
-}
-
-.footer .container {
-  display: flex;
-  align-items: baseline;
 }
 
 .footer-left-side {
@@ -740,11 +728,6 @@ img {
 }
 
 /* =========  PORTFOLIO ========= */
-.portfolio-view .container {
-  display: flex;
-  justify-content: center;
-}
-
 .filter-buttons-list {
   display: flex;
   margin-bottom: 50px;

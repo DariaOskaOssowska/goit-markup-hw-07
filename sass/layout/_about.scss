@@ -1,14 +1,10 @@
-.about .container {
-  display: flex;
-  flex-direction: column;
-}
-
 .about-img-list {
   display: flex;
 }
 
 .about-img-list-item {
   position: relative;
+
   &:not(:last-child) {
     margin-right: 30px;
   }

@@ -6,12 +6,15 @@
   line-height: 1.192;
   letter-spacing: 0.03em;
   color: $main-colorFont;
+
   .logo--accent {
     color: $main-color;
   }
+
   .logo--light-theme {
     color: $main-colorFont;
   }
+  
   .logo--dark-theme {
     color: $third-colorFont;
   }
