@@ -399,6 +399,18 @@ img {
   fill: #ffffff;
 }
 
+.footer .social-list__link {
+  fill: #ffffff;
+  background: rgba(255, 255, 255, 0.1);
+  transition: background-color 0.5s cubic-bezier(0.4, 0, 0.2, 1), fill 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer .social-list__link:hover,
+.footer .social-list__link:focus {
+  background-color: #2196f3;
+  fill: #ffffff;
+}
+
 .header {
   background-color: #ffffff;
   border-bottom: 1px solid #ececec;
@@ -638,18 +650,6 @@ img {
 .footer__third-header {
   margin-bottom: 20px;
   color: #ffffff;
-}
-
-.footer .social-list__link {
-  fill: #ffffff;
-  background: rgba(255, 255, 255, 0.1);
-  transition: background-color 0.5s cubic-bezier(0.4, 0, 0.2, 1), fill 0.5s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.footer .social-list__link:hover,
-.footer .social-list__link:focus {
-  background-color: #2196f3;
-  fill: #ffffff;
 }
 
 .address {

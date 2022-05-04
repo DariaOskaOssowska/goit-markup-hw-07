@@ -17,19 +17,6 @@
     margin-bottom: 20px;
     color: $third-colorFont;
   }
-
-  & .social-list__link {
-    fill: $light-bgc;
-    background: rgba(255, 255, 255, 0.1);
-    transition: background-color 0.5s cubic-bezier(0.4, 0, 0.2, 1),
-      fill 0.5s cubic-bezier(0.4, 0, 0.2, 1);
-  }
-
-  & .social-list__link:hover,
-  & .social-list__link:focus {
-    background-color: $main-color;
-    fill: $light-bgc;
-  }
 }
 
 .address {
